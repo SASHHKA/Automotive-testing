@@ -11,7 +11,6 @@ public class Calculator {
         int second = scanner.nextInt();
         System.out.println("Choose operation(+ - * /)");
 
-
         System.out.println(first + "+" + second + " = " + augment(first, second) );
         System.out.println(first + "-" + second + " = " + subtraction(first, second) );
         System.out.println(first + "*" + second + " = " + multiplication(first, second) );
