@@ -19,5 +19,4 @@ public class Part2 {
     private static void strIndex ( int index, String str) {
         System.out.println("'" + str.split(" ")[index] + "'");
     }
-
 }
