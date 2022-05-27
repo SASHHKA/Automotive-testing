@@ -20,8 +20,8 @@ public class Chrome {
         WebDriver driver = new ChromeDriver();
         driver.get("https://stackoverflow.com/");
 
-        WebElement burgerMenu =  driver.findElement(By.xpath("/html/body/header/div/a[1]"));
-        burgerMenu.click();
+        WebElement searchInput =  driver.findElement(By.xpath("/html/body/header/div/a[1]"));
+        searchInput.click();
         WebElement tags = driver.findElement(By.xpath("//*[@id=\"nav-tags\"]"));
         tags.click();
 
