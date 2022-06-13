@@ -1,4 +1,4 @@
-package Task14;
+package allure;
 
 import PageFactory.DriverFactory;
 import io.qameta.allure.Attachment;
